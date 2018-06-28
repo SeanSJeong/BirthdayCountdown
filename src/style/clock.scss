@@ -1,0 +1,16 @@
+.clock {
+    grid-row: 3/4;
+    grid-column: 2/11;
+  
+    background: $color-gray-one;
+    height: 80%;
+    align-self: end;
+  
+    -webkit-clip-path: polygon(7% 0, 100% 0, 93% 100%, 0% 100%);
+    clip-path: polygon(7% 0, 100% 0, 93% 100%, 0% 100%);
+  
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 275px));
+  }
+  
