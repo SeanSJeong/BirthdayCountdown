@@ -15,7 +15,7 @@
     
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 275px));
-    grid-column-gap: 40px;
+    grid-column-gap: 60px;
 
 
     align-items: center;
@@ -30,7 +30,6 @@
         display: flex;
         flex-direction: column;
     }
-
     &__title {
         font-size: 22px;
         line-height: 25px;
