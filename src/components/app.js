@@ -41,6 +41,7 @@ export default class App extends Component {
     clearInterval(this.timer)
    
     var bday = this.state.startDate.toDate();
+    
     var today = new Date();
     var currentMonth = today.getMonth();
     var birthMonth = bday.getMonth();
